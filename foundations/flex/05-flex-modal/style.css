@@ -20,7 +20,26 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  display: flex;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.info {
+  display: block;
+  padding-left: 16px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +52,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.text {
+  padding: 8px 0;
+  padding-bottom: 16px;
 }
 
 .close-button {
